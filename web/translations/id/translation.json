@@ -25,6 +25,22 @@
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },
+  "images": [
+    {
+      "file": "ajustes.webp",
+      "alt": {
+        "es": "Ajustes del partido en indonesio",
+        "en": "Match settings in Indonesian"
+      }
+    },
+    {
+      "file": "pausa.webp",
+      "alt": {
+        "es": "Menú de pausa de un partido en indonesio",
+        "en": "Match pause menu in Indonesian"
+      }
+    }
+  ],
   "credits": [
     {
       "role": {

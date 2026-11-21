@@ -24,6 +24,22 @@
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },
+  "images": [
+    {
+      "file": "ajustes.webp",
+      "alt": {
+        "es": "Ajustes del partido en griego",
+        "en": "Match settings in Greek"
+      }
+    },
+    {
+      "file": "editar.webp",
+      "alt": {
+        "es": "Menú Editar en griego",
+        "en": "Edit menu in Greek"
+      }
+    }
+  ],
   "credits": [
     {
       "role": {

@@ -25,6 +25,22 @@
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },
+  "images": [
+    {
+      "file": "ajustes.webp",
+      "alt": {
+        "es": "Ajustes del partido en portugués de Brasil",
+        "en": "Match settings in Brazilian Portuguese"
+      }
+    },
+    {
+      "file": "editar.webp",
+      "alt": {
+        "es": "Menú Editar en portugués de Brasil",
+        "en": "Edit menu in Brazilian Portuguese"
+      }
+    }
+  ],
   "credits": [
     {
       "role": {
