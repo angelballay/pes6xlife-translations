@@ -24,15 +24,19 @@ the website and in this repository's Releases: `PES6_Translation_<code>_v<versio
 2. Open `hdtext.exe` → Languages → Load a language file… and pick that `.zip` (or drop it on the window).
 3. Start PES6 and choose the language on the language screen.
 
-The first time, `hdtext.exe` also gets a small add-on by itself (it needs internet): PES6 Translations
-(`translations.dll`, tag `dll-v<version>`), which puts the languages in the game's menu and is updated by itself. To
-change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it.
+To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it.
 
-**Without internet, or by hand:** see the PES6 Translations page of the website. Without internet, load
-`PES6_Translations_DLL_v<version>.zip` in `hdtext.exe` together with the language's `.zip`. By hand, copy the `dat` and
-`Kitserver` folders of each `.zip` into your PES 6 folder (the one the game is installed to: the game reads `dat\` from
-there), add `DLL.<N> = "kitserver\translations.dll"` to `kload.cfg` after HD Text's line (and raise `DLL.num`), and
-pick the language in `hdtext.exe` → Languages → Use.
+**By hand:** copy the `dat` and `Kitserver` folders of the language's `.zip` into your PES 6 folder (the one the game
+is installed to: the game reads `dat\` from there). If `kload.cfg` doesn't load `translations.dll` yet, add
+`DLL.<N> = "kitserver\translations.dll"` after PES6 HD Text's line (and raise `DLL.num`). Then pick the language in
+`hdtext.exe` → Languages → Use.
+
+**PES6 Translations** (`translations.dll`), the add-on that puts the languages in the game's menu, needs PES6 HD Text.
+Every language's `.zip` already includes it: loading a language with Load a language file… installs it, and
+`hdtext.exe` doesn't overwrite a newer one and keeps it updated. It also has its own download
+(`PES6_Translations_DLL_v<version>.zip`, tag `dll-v<version>`, on its page of the website) to install it by hand or to
+get a newer one: load that `.zip` in `hdtext.exe` → Languages → Load a language file…, or by hand copy its `Kitserver`
+folder and add the `kload.cfg` line above.
 
 ## Propose a change
 
@@ -90,15 +94,19 @@ la web y en los Releases de este repo: `PES6_Translation_<código>_v<versión>.z
 2. Abrí `hdtext.exe` → Languages → Load a language file… y elegí ese `.zip` (o soltalo sobre la ventana).
 3. Abrí PES6 y elegí el idioma en la pantalla de idiomas.
 
-La primera vez, `hdtext.exe` también baja solo un complemento chico (hace falta internet): PES6 Translations
-(`translations.dll`, tag `dll-v<versión>`), que pone los idiomas en el menú del juego y se actualiza solo. Para cambiar
-de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra.
+Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra.
 
-**Sin internet, o a mano:** mirá la página de PES6 Translations en la web. Sin internet, cargá
-`PES6_Translations_DLL_v<versión>.zip` en `hdtext.exe` junto con el `.zip` del idioma. A mano, copiá las carpetas `dat` y
-`Kitserver` de cada `.zip` en la carpeta de tu PES 6 (donde está instalado el juego: el juego lee `dat\` de ahí), sumá
-`DLL.<N> = "kitserver\translations.dll"` en `kload.cfg` después de la línea de HD Text (y subí `DLL.num`) y elegí el
-idioma en `hdtext.exe` → Languages → Use.
+**A mano:** copiá las carpetas `dat` y `Kitserver` del `.zip` del idioma en la carpeta de tu PES 6 (donde está instalado
+el juego: el juego lee `dat\` de ahí). Si `kload.cfg` todavía no carga `translations.dll`, sumá
+`DLL.<N> = "kitserver\translations.dll"` después de la línea de PES6 HD Text (y subí `DLL.num`). Después elegí el idioma
+en `hdtext.exe` → Languages → Use.
+
+**PES6 Translations** (`translations.dll`), el complemento que pone los idiomas en el menú del juego, necesita PES6 HD
+Text. El `.zip` de cada idioma ya lo trae adentro: al cargar un idioma con Load a language file… se instala solo, y
+`hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Tiene también su propia descarga
+(`PES6_Translations_DLL_v<versión>.zip`, tag `dll-v<versión>`, en su página de la web) para instalarlo a mano o para
+tener uno más nuevo: cargá ese `.zip` en `hdtext.exe` → Languages → Load a language file…, o a mano copiá su carpeta
+`Kitserver` y sumá la línea de `kload.cfg` de arriba.
 
 ### Proponer un cambio
 

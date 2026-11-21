@@ -11,10 +11,11 @@ Dos paquetes independientes (cambio 1 del spec):
 | `translations.json` | `translations` (la DLL) | `dll-v<versión>` | `PES6_Translations_DLL_v<versión>.zip` | `Kitserver/translations.dll` |
 | `translation-<código>.json` | `translation-<código>` | `<código>-v<versión>` | `PES6_Translation_<código>_v<versión>.zip` | `dat/<código>_text.afs` |
 
-El zip de un idioma **no** trae la DLL: dice en `requires` la versión mínima de `translations` (y de `hdtext`, la que
-trae la pestaña Languages). `hdtext.exe` baja la DLL del índice con el primer idioma y la actualiza sola, así que la DLL
-y los siete idiomas tienen que estar en el índice antes o junto con HD Text 1.0.2. Una DLL nueva que lee los mismos
-`.afs` no obliga a publicar de nuevo los idiomas.
+Decisión del usuario (2026-11-21): la DLL viaja dentro del zip de cada idioma, como paquete `translations` independiente y
+sin modificar, y además se publica sola. HD Text no la trae (no hay dependencia de HD Text hacia Translations). Cada idioma
+dice en `requires` la versión mínima de `translations` (y de `hdtext`, la que trae la pestaña Languages); al cargarlo,
+`hdtext.exe` instala la DLL que trae si no hay una igual o más nueva. Una DLL nueva que lee los mismos `.afs` no obliga a
+publicar de nuevo los idiomas.
 
 ## Campos
 

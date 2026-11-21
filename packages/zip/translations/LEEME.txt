@@ -5,25 +5,31 @@ El complemento que pone los idiomas en el menú de idiomas de PES 6 PC: una
 séptima opción para el idioma que elijas en hdtext.exe. Los seis idiomas
 originales y tu relato quedan como estaban; no toca el registro ni pes6.exe.
 
-Este zip no hace falta: PES6 HD Text 1.0.2 o más nueva (hdtext.exe) instala el
-complemento solo con el primer idioma y lo actualiza solo. Este zip es para
-instalarlo sin internet o a mano.
+Necesita PES6 HD Text. El zip de cada idioma ya lo trae adentro: al cargar un
+idioma con "Load a language file…" se instala solo, y hdtext.exe no pisa uno
+más nuevo y lo mantiene actualizado. Este zip es para instalarlo a mano o para
+tener uno más nuevo.
 
 Este zip trae:
   Kitserver/translations.dll
   Kitserver/pes6pkg/installed/translations.json (+ .minisig)
                                   lista firmada de los archivos, para hdtext.exe
 
-Sin internet
-  Abrí hdtext.exe → Languages → Load a language file… y elegí este zip
-  junto con el .zip del idioma (o soltalos sobre la ventana).
+Instalar con hdtext.exe
+  Abrí hdtext.exe → Languages → Load a language file… y elegí este zip (o
+  soltalo sobre la ventana). No hace falta descomprimirlo.
 
-A mano, sin hdtext.exe
+Instalar a mano
   1. Copiá la carpeta Kitserver de este zip en la carpeta de tu PES 6.
-  2. Sumá la DLL en Kitserver\kload.cfg después de la línea de HD Text, por
-     ejemplo
+  2. Si Kitserver\kload.cfg todavía no carga la DLL, sumala después de la línea
+     de PES6 HD Text, por ejemplo
        DLL.6 = "kitserver\translations.dll"
      y subí DLL.num en uno.
+
+Cada idioma
+  Cargá su .zip en hdtext.exe → Languages → Load a language file… (o, a mano,
+  copiá sus carpetas dat y Kitserver en la carpeta de tu PES 6 y tocá Use en
+  Languages) y elegilo en la pantalla de idiomas del juego.
 
 Para desinstalar: sacá su línea de kload.cfg. El juego arranca como antes.
 Código: MIT. https://github.com/angelballay/pes6xlife-translations
