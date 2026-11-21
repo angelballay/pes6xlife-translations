@@ -21,12 +21,12 @@
       "pe_version": true
     },
     {
-      "path": "README.txt",
+      "path": "Docs/translations/README.txt",
       "install": false,
       "from": "packages/zip/translations/README.txt"
     },
     {
-      "path": "LEEME.txt",
+      "path": "Docs/translations/LEEME.txt",
       "install": false,
       "from": "packages/zip/translations/LEEME.txt"
     }

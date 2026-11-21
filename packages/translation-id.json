@@ -17,6 +17,9 @@
       "min": "1.0"
     }
   ],
+  "bundles": [
+    "translations"
+  ],
   "files": [
     {
       "path": "dat/id_text.afs",
@@ -24,12 +27,12 @@
       "from": "tools/pes6tr.py build (merge de languages/id/id.json con la plantilla de e_text.afs; --source <dat>/e_text.afs --install afs)"
     },
     {
-      "path": "README.txt",
+      "path": "Docs/translation-id/README.txt",
       "install": false,
       "from": "packages/zip/translation/README.txt"
     },
     {
-      "path": "LEEME.txt",
+      "path": "Docs/translation-id/LEEME.txt",
       "install": false,
       "from": "packages/zip/translation/LEEME.txt"
     }
