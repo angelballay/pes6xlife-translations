@@ -1,0 +1,12 @@
+# Binarios: el .afs armado va solo en el zip de cada release, nunca en git
+*.afs
+*.zip
+*.dll
+*.exe
+*.bin
+
+# JSON completos (plantilla de tu juego, merge, lotes): llevan los textos de Konami
+work/
+
+__pycache__/
+*.pyc

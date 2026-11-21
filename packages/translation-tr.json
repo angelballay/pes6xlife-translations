@@ -1,0 +1,37 @@
+{
+  "recipe": "pes6pkg-recipe/1",
+  "package": "translation-tr",
+  "name": "Türkçe",
+  "release": {
+    "repo": "angelballay/pes6xlife-translations",
+    "tag": "tr-v{version}",
+    "archive": "PES6_Translation_tr_v{version}.zip"
+  },
+  "requires": [
+    {
+      "package": "hdtext",
+      "min": "1.0.2"
+    },
+    {
+      "package": "translations",
+      "min": "1.0"
+    }
+  ],
+  "files": [
+    {
+      "path": "dat/tr_text.afs",
+      "install": true,
+      "from": "tools/pes6tr.py build (merge de languages/tr/tr.json con la plantilla de e_text.afs; --source <dat>/e_text.afs --install afs)"
+    },
+    {
+      "path": "README.txt",
+      "install": false,
+      "from": "packages/zip/translation/README.txt"
+    },
+    {
+      "path": "LEEME.txt",
+      "install": false,
+      "from": "packages/zip/translation/LEEME.txt"
+    }
+  ]
+}

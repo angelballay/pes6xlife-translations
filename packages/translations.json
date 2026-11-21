@@ -1,0 +1,34 @@
+{
+  "recipe": "pes6pkg-recipe/1",
+  "package": "translations",
+  "name": "PES6 Translations",
+  "release": {
+    "repo": "angelballay/pes6xlife-translations",
+    "tag": "dll-v{version}",
+    "archive": "PES6_Translations_DLL_v{version}.zip"
+  },
+  "requires": [
+    {
+      "package": "hdtext",
+      "min": "1.0.2"
+    }
+  ],
+  "files": [
+    {
+      "path": "Kitserver/translations.dll",
+      "install": true,
+      "from": "pes6xlife_mods: build.ps1 -> build/Release/translations.dll (FileVersion = {version})",
+      "pe_version": true
+    },
+    {
+      "path": "README.txt",
+      "install": false,
+      "from": "packages/zip/translations/README.txt"
+    },
+    {
+      "path": "LEEME.txt",
+      "install": false,
+      "from": "packages/zip/translations/LEEME.txt"
+    }
+  ]
+}

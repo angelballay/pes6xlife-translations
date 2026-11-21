@@ -1,0 +1,9 @@
+# Texto con fin de línea LF en todos los sistemas
+* text=auto eol=lf
+
+*.afs binary
+*.zip binary
+*.dll binary
+*.exe binary
+*.bin binary
+*.webp binary
