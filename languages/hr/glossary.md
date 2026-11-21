@@ -84,3 +84,7 @@ Las 8 tandas adaptaron los 7 958 textos desde el serbio con 0 errores. `lotes.py
   - sin cirílico, sin formas ekavski ni palabras solo serbias;
   - lo que marca son genitivos correctos («vremena», «poluvremena») y «s tim» como pronombre.
 - **Diferencia con el serbio:** el 40 % de los textos (3 219 de 7 958) quedó igual (nombres, siglas, números y palabras comunes); el resto cambió por la variante, las palabras o la gramática.
+
+## Corregido después de la prueba (2026-11-21)
+
+- **Time (hora del día, `2:87` y `516:44`; de «Tageszeit») → Doba dana.** Decía «Vrijeme», igual que Weather (`2:7`, `503:35`), y en los ajustes del partido había dos filas «Vrijeme». Weather sigue «Vrijeme».
