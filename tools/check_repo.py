@@ -282,9 +282,9 @@ def check_web(problems):
             out += [f'el grupo "{i}" está repetido' for i in sorted({i for i in ids if ids.count(i) > 1})]
             groups = {i for i in ids if isinstance(i, str)}
             out += [f'"{p}" está @pendiente' for p in find_pending(guide)]
-            for need in ("pes6-hd-text", "pes6-translations"):
-                if need not in requirement_mods(guide):
-                    out.append(f'requirements no tiene la fila con mod "{need}" (WEB-4)')
+            # WEB-4 (propuesta final de hdtext.exe 1.0.2): la DLL no se nombra; el requisito es HD Text 1.0.2.
+            if "pes6-hd-text" not in requirement_mods(guide):
+                out.append('requirements no tiene la fila con mod "pes6-hd-text" (WEB-4)')
         else:
             out.append("tiene que ser un objeto")
         problems += [f"web/translations/guide.json: {p}" for p in out]
@@ -296,8 +296,6 @@ def check_web(problems):
             continue
         out = entry_problems(doc, TRANSLATION_FIELDS, folder, groups, "group",
                              lambda g: f'el grupo "{g}" no está en translations/guide.json')
-        if isinstance(doc, dict) and "pes6-translations" not in requirement_mods(doc):
-            out.append('requirements no tiene la fila PES6 Translations con mod "pes6-translations" (WEB-4)')
         problems += [f"{f.relative_to(ROOT).as_posix()}: {p}" for p in out]
     for folder in sorted(p for p in (web / "mods").iterdir() if p.is_dir()):
         f = folder / "mod.json"

@@ -8,31 +8,24 @@ touching the six original ones. It has:
   Kitserver/pes6pkg/installed/translation-<code>.json (+ .minisig)
                                                signed list of the files, for hdtext.exe
 
-You need:
-  - PES 6 PC with Kitserver 6
-  - PES6 HD Text 1.0.2 or later
-  - PES6 Translations (translations.dll), installed only once. This zip does
-    not include it: download it together with the languages.
+You need PES 6 PC with Kitserver 6 and PES6 HD Text 1.0.2 or later.
 
 Install with hdtext.exe (recommended)
-  1. Open hdtext.exe. If it is the first time, press "Translations: Install...";
-     if you already see the Translations tab, go there and press
-     "Install from file...".
-  2. Either way, pick this zip together with the others you downloaded
-     (PES6 Translations and other languages), without unzipping them.
-     hdtext.exe checks their signatures and installs PES6 Translations first
-     and then the languages.
-  3. Start the game and pick the new language on the language screen.
-     If you installed several languages, pick which one to use in the
-     Translations tab of hdtext.exe.
+  1. Download the language's .zip (no need to unzip it).
+  2. Open hdtext.exe → Languages → Load a language file… and pick that
+     .zip (or drop it on the window).
+  3. Start PES6 and choose the language on the language screen.
 
-Install by hand
-  Copy the dat and Kitserver folders of this zip into your PES 6 folder (the
-  one the game was installed to). Then pick the language in the Translations
-  tab of hdtext.exe.
+  The first time, hdtext.exe also gets a small add-on by itself (it needs
+  internet). To change the language: in Languages, pick another one and press
+  Use. None turns it off and Remove deletes it.
 
-To change the language, use the game's Options. To turn the translation off,
-disable it in the Translations tab of hdtext.exe.
+Without internet, or by hand
+  See the PES6 Translations page of the website. Without internet, load
+  PES6_Translations_DLL_v<version>.zip in hdtext.exe together with this zip.
+  By hand, copy the dat folder of this zip (and the Kitserver folder of
+  PES6_Translations_DLL_v<version>.zip) into your PES 6 folder, the one the
+  game is installed to, and pick the language in hdtext.exe → Languages → Use.
 
 The .afs is built on top of Konami's e_text.afs: its original images and data
 belong to Konami. The translations: MIT with attribution

@@ -24,19 +24,6 @@
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },
-  "requirements": [
-    {
-      "label": {
-        "es": "PES6 Translations",
-        "en": "PES6 Translations"
-      },
-      "value": {
-        "es": "1.0 o más nueva",
-        "en": "1.0 or later"
-      },
-      "mod": "pes6-translations"
-    }
-  ],
   "credits": [
     {
       "role": {
