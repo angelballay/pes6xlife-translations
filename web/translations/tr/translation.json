@@ -24,6 +24,22 @@
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },
+  "images": [
+    {
+      "file": "ajustes.webp",
+      "alt": {
+        "es": "Ajustes del partido en turco",
+        "en": "Match settings in Turkish"
+      }
+    },
+    {
+      "file": "idiomas.webp",
+      "alt": {
+        "es": "Pantalla de idiomas del juego con Türkçe",
+        "en": "The game's language screen with Türkçe"
+      }
+    }
+  ],
   "credits": [
     {
       "role": {
