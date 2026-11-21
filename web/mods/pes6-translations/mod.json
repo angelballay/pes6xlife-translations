@@ -14,11 +14,11 @@
   "description": {
     "es": [
       "Suma una séptima opción al menú de idiomas del juego para el idioma que elijas en `hdtext.exe`. Los seis idiomas originales y tu relato quedan como estaban, y no toca el registro ni `pes6.exe`.",
-      "PES6 HD Text 1.0.2 ya la trae; no hace falta bajarla. Esta descarga es para instalarla por separado o para tener una versión más nueva que la que vino con HD Text. Los idiomas están en la sección Traducciones."
+      "Necesita PES6 HD Text, y PES6 HD Text 1.0.2 ya la trae: no hace falta bajarla. Esta descarga es para instalarla a mano o para tener una versión más nueva que la que vino con HD Text. Los idiomas están en la sección Traducciones."
     ],
     "en": [
       "It adds a seventh option to the game's language menu for the language you pick in `hdtext.exe`. The six original languages and your commentary stay as they were, and it touches neither the registry nor `pes6.exe`.",
-      "PES6 HD Text 1.0.2 already includes it; you don't need to download it. This download is for installing it separately or for getting a newer version than the one that came with HD Text. The languages are in the Translations section."
+      "It needs PES6 HD Text, and PES6 HD Text 1.0.2 already includes it: you don't need to download it. This download is for installing it by hand or for getting a newer version than the one that came with HD Text. The languages are in the Translations section."
     ]
   },
   "licenses": [
@@ -36,12 +36,14 @@
   ],
   "install": {
     "es": [
-      "Con `hdtext.exe`: descargá este `.zip` (no hace falta descomprimirlo) y cargalo en `hdtext.exe` → Languages → Load a language file… (o soltalo sobre la ventana).",
-      "A mano, sin `hdtext.exe`: copiá la carpeta `Kitserver` del `.zip` en la carpeta de tu PES 6. Si `Kitserver\\kload.cfg` todavía no carga la DLL, sumá `DLL.<N> = \"kitserver\\translations.dll\"` después de la línea de HD Text (y subí `DLL.num` en uno)."
+      "Con `hdtext.exe`: cargá este `.zip` (sin descomprimirlo) en `hdtext.exe` → Languages → Load a language file… (o soltalo sobre la ventana).",
+      "A mano: copiá la carpeta `Kitserver` del `.zip` en la carpeta de tu PES 6. Si `Kitserver\\kload.cfg` todavía no la carga, sumá `DLL.<N> = \"kitserver\\translations.dll\"` después de la línea de PES6 HD Text (y subí `DLL.num` en uno).",
+      "Cada idioma: cargá su `.zip` en `hdtext.exe` → Languages → Load a language file… (o, a mano, copiá su carpeta `dat` en la carpeta de tu PES 6 y tocá Use en Languages) y elegilo en la pantalla de idiomas del juego."
     ],
     "en": [
-      "With `hdtext.exe`: download this `.zip` (no need to unzip it) and load it in `hdtext.exe` → Languages → Load a language file… (or drop it on the window).",
-      "By hand, without `hdtext.exe`: copy the `Kitserver` folder of the `.zip` into your PES 6 folder. If `Kitserver\\kload.cfg` doesn't load the DLL yet, add `DLL.<N> = \"kitserver\\translations.dll\"` after HD Text's line (and raise `DLL.num` by one)."
+      "With `hdtext.exe`: load this `.zip` (no need to unzip it) in `hdtext.exe` → Languages → Load a language file… (or drop it on the window).",
+      "By hand: copy the `Kitserver` folder of the `.zip` into your PES 6 folder. If `Kitserver\\kload.cfg` doesn't load it yet, add `DLL.<N> = \"kitserver\\translations.dll\"` after PES6 HD Text's line (and raise `DLL.num` by one).",
+      "Each language: load its `.zip` in `hdtext.exe` → Languages → Load a language file… (or, by hand, copy its `dat` folder into your PES 6 folder and press Use in Languages) and choose it on the game's language screen."
     ]
   },
   "links": [

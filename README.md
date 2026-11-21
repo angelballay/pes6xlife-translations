@@ -29,12 +29,12 @@ To change the language: in Languages, pick another one and press Use. None turns
 **By hand:** copy the `dat` folder of the language's `.zip` into your PES 6 folder (the one the game is installed to:
 the game reads `dat\` from there) and pick the language in `hdtext.exe` → Languages → Use.
 
-**PES6 Translations** (`translations.dll`), the add-on that puts the languages in the game's menu: PES6 HD Text 1.0.2
-already includes it, so you don't need to download it. It also has its own download
-(`PES6_Translations_DLL_v<version>.zip`, tag `dll-v<version>`, on its page of the website) to install it separately or
-to get a newer version than the one that came with HD Text: load that `.zip` in `hdtext.exe` → Languages → Load a
+**PES6 Translations** (`translations.dll`), the add-on that puts the languages in the game's menu, needs PES6 HD Text,
+and PES6 HD Text 1.0.2 already includes it, so you don't need to download it. It also has its own download
+(`PES6_Translations_DLL_v<version>.zip`, tag `dll-v<version>`, on its page of the website) to install it by hand or to
+get a newer version than the one that came with HD Text: load that `.zip` in `hdtext.exe` → Languages → Load a
 language file…, or by hand copy its `Kitserver` folder into your PES 6 folder and, if `kload.cfg` doesn't load it yet,
-add `DLL.<N> = "kitserver\translations.dll"` after HD Text's line (and raise `DLL.num`).
+add `DLL.<N> = "kitserver\translations.dll"` after PES6 HD Text's line (and raise `DLL.num`).
 
 ## Propose a change
 
@@ -97,12 +97,12 @@ Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y R
 **A mano:** copiá la carpeta `dat` del `.zip` del idioma en la carpeta de tu PES 6 (donde está instalado el juego: el
 juego lee `dat\` de ahí) y elegí el idioma en `hdtext.exe` → Languages → Use.
 
-**PES6 Translations** (`translations.dll`), el complemento que pone los idiomas en el menú del juego: PES6 HD Text 1.0.2
-ya lo trae, así que no hace falta bajarlo. Tiene también su propia descarga (`PES6_Translations_DLL_v<versión>.zip`, tag
-`dll-v<versión>`, en su página de la web) para instalarlo por separado o para tener una versión más nueva que la que
-vino con HD Text: cargá ese `.zip` en `hdtext.exe` → Languages → Load a language file…, o a mano copiá su carpeta
-`Kitserver` en la carpeta de tu PES 6 y, si `kload.cfg` todavía no lo carga, sumá `DLL.<N> = "kitserver\translations.dll"`
-después de la línea de HD Text (y subí `DLL.num`).
+**PES6 Translations** (`translations.dll`), el complemento que pone los idiomas en el menú del juego, necesita PES6 HD
+Text, y PES6 HD Text 1.0.2 ya lo trae, así que no hace falta bajarlo. Tiene también su propia descarga
+(`PES6_Translations_DLL_v<versión>.zip`, tag `dll-v<versión>`, en su página de la web) para instalarlo a mano o para
+tener una versión más nueva que la que vino con HD Text: cargá ese `.zip` en `hdtext.exe` → Languages → Load a language
+file…, o a mano copiá su carpeta `Kitserver` en la carpeta de tu PES 6 y, si `kload.cfg` todavía no lo carga, sumá
+`DLL.<N> = "kitserver\translations.dll"` después de la línea de PES6 HD Text (y subí `DLL.num`).
 
 ### Proponer un cambio
 
