@@ -27,6 +27,22 @@
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },
+  "images": [
+    {
+      "file": "editar.webp",
+      "alt": {
+        "es": "Menú Editar en croata",
+        "en": "Edit menu in Croatian"
+      }
+    },
+    {
+      "file": "jugador.webp",
+      "alt": {
+        "es": "Editar jugador en croata",
+        "en": "Edit player in Croatian"
+      }
+    }
+  ],
   "credits": [
     {
       "role": {
