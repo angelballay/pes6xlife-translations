@@ -24,15 +24,17 @@ the website and in this repository's Releases: `PES6_Translation_<code>_v<versio
 2. Open `hdtext.exe` → Languages → Load a language file… and pick that `.zip` (or drop it on the window).
 3. Start PES6 and choose the language on the language screen.
 
-The first time, `hdtext.exe` also gets a small add-on by itself (it needs internet): PES6 Translations
-(`translations.dll`, tag `dll-v<version>`), which puts the languages in the game's menu and is updated by itself. To
-change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it.
+To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it.
 
-**Without internet, or by hand:** see the PES6 Translations page of the website. Without internet, load
-`PES6_Translations_DLL_v<version>.zip` in `hdtext.exe` together with the language's `.zip`. By hand, copy the `dat` and
-`Kitserver` folders of each `.zip` into your PES 6 folder (the one the game is installed to: the game reads `dat\` from
-there), add `DLL.<N> = "kitserver\translations.dll"` to `kload.cfg` after HD Text's line (and raise `DLL.num`), and
-pick the language in `hdtext.exe` → Languages → Use.
+**By hand:** copy the `dat` folder of the language's `.zip` into your PES 6 folder (the one the game is installed to:
+the game reads `dat\` from there) and pick the language in `hdtext.exe` → Languages → Use.
+
+**PES6 Translations** (`translations.dll`), the add-on that puts the languages in the game's menu: PES6 HD Text 1.0.2
+already includes it, so you don't need to download it. It also has its own download
+(`PES6_Translations_DLL_v<version>.zip`, tag `dll-v<version>`, on its page of the website) to install it separately or
+to get a newer version than the one that came with HD Text: load that `.zip` in `hdtext.exe` → Languages → Load a
+language file…, or by hand copy its `Kitserver` folder into your PES 6 folder and, if `kload.cfg` doesn't load it yet,
+add `DLL.<N> = "kitserver\translations.dll"` after HD Text's line (and raise `DLL.num`).
 
 ## Propose a change
 
@@ -90,15 +92,17 @@ la web y en los Releases de este repo: `PES6_Translation_<código>_v<versión>.z
 2. Abrí `hdtext.exe` → Languages → Load a language file… y elegí ese `.zip` (o soltalo sobre la ventana).
 3. Abrí PES6 y elegí el idioma en la pantalla de idiomas.
 
-La primera vez, `hdtext.exe` también baja solo un complemento chico (hace falta internet): PES6 Translations
-(`translations.dll`, tag `dll-v<versión>`), que pone los idiomas en el menú del juego y se actualiza solo. Para cambiar
-de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra.
+Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra.
 
-**Sin internet, o a mano:** mirá la página de PES6 Translations en la web. Sin internet, cargá
-`PES6_Translations_DLL_v<versión>.zip` en `hdtext.exe` junto con el `.zip` del idioma. A mano, copiá las carpetas `dat` y
-`Kitserver` de cada `.zip` en la carpeta de tu PES 6 (donde está instalado el juego: el juego lee `dat\` de ahí), sumá
-`DLL.<N> = "kitserver\translations.dll"` en `kload.cfg` después de la línea de HD Text (y subí `DLL.num`) y elegí el
-idioma en `hdtext.exe` → Languages → Use.
+**A mano:** copiá la carpeta `dat` del `.zip` del idioma en la carpeta de tu PES 6 (donde está instalado el juego: el
+juego lee `dat\` de ahí) y elegí el idioma en `hdtext.exe` → Languages → Use.
+
+**PES6 Translations** (`translations.dll`), el complemento que pone los idiomas en el menú del juego: PES6 HD Text 1.0.2
+ya lo trae, así que no hace falta bajarlo. Tiene también su propia descarga (`PES6_Translations_DLL_v<versión>.zip`, tag
+`dll-v<versión>`, en su página de la web) para instalarlo por separado o para tener una versión más nueva que la que
+vino con HD Text: cargá ese `.zip` en `hdtext.exe` → Languages → Load a language file…, o a mano copiá su carpeta
+`Kitserver` en la carpeta de tu PES 6 y, si `kload.cfg` todavía no lo carga, sumá `DLL.<N> = "kitserver\translations.dll"`
+después de la línea de HD Text (y subí `DLL.num`).
 
 ### Proponer un cambio
 

@@ -70,11 +70,11 @@
   },
   "notes": {
     "es": [
-      "La primera vez, `hdtext.exe` también baja solo un complemento chico (hace falta internet). Sin internet, o para instalar a mano, mirá la página de PES6 Translations, en Mods.",
+      "A mano: copiá la carpeta `dat` del `.zip` en la carpeta de tu PES 6 (donde está instalado el juego) y elegí el idioma en `hdtext.exe` → Languages → Use.",
       "Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra."
     ],
     "en": [
-      "The first time, `hdtext.exe` also gets a small add-on by itself (it needs internet). Without internet, or to install by hand, see the PES6 Translations page, in Mods.",
+      "By hand: copy the `dat` folder of the `.zip` into your PES 6 folder (the one the game is installed to) and pick the language in `hdtext.exe` → Languages → Use.",
       "To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it."
     ]
   }

@@ -16,15 +16,11 @@ Instalar con hdtext.exe (recomendado)
      (o soltalo sobre la ventana).
   3. Abrí PES6 y elegí el idioma en la pantalla de idiomas.
 
-  La primera vez, hdtext.exe también baja solo un complemento chico (hace falta
-  internet). Para cambiar de idioma: en Languages, elegí otro y tocá Use. None
-  lo apaga y Remove lo borra.
+  Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y
+  Remove lo borra.
 
-Sin internet, o a mano
-  Mirá la página de PES6 Translations en la web. Sin internet, cargá
-  PES6_Translations_DLL_v<versión>.zip en hdtext.exe junto con este zip.
-  A mano, copiá la carpeta dat de este zip (y la carpeta Kitserver de
-  PES6_Translations_DLL_v<versión>.zip) en la carpeta de tu PES 6, donde está
+Instalar a mano
+  Copiá la carpeta dat de este zip en la carpeta de tu PES 6, donde está
   instalado el juego, y elegí el idioma en hdtext.exe → Languages → Use.
 
 El .afs se arma sobre el e_text.afs de Konami: sus imágenes y datos originales
