@@ -1,4 +1,4 @@
-# Português (Brasil) (Brazilian Portuguese): changelog
+# Português do Brasil (Brazilian Portuguese): changelog
 
 ## 1.0 (unreleased)
 

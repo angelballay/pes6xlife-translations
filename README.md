@@ -10,7 +10,7 @@ the game's language menu: the six original languages, your commentary, the regis
 | Türkçe (Turkish) | `tr` | 1.0 | tested in the game |
 | Srpski (Serbian, Latin script) | `sr` | 1.0 | beta (tested in the lab) |
 | Hrvatski (Croatian) | `hr` | 1.0 | beta (tested in the lab) |
-| Português (Brasil) (Brazilian Portuguese) | `pt-br` | 1.0 | beta (tested in the lab) |
+| Português do Brasil (Brazilian Portuguese) | `pt-br` | 1.0 | beta (tested in the lab) |
 | Bahasa Indonesia (Indonesian) | `id` | 1.0 | beta (tested in the lab) |
 
 Spanish below / [Castellano más abajo](#castellano).
