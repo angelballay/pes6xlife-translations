@@ -14,11 +14,11 @@
   "description": {
     "es": [
       "Suma una séptima opción al menú de idiomas del juego para la traducción que elijas. Los seis idiomas originales y tu relato quedan como estaban, y no toca el registro ni `pes6.exe`.",
-      "Es la DLL (`translations.dll`): se instala una vez. Cada idioma se baja aparte, desde la sección Traducciones, y dice qué versión de la DLL necesita."
+      "Es la DLL (`translations.dll`): se instala una sola vez. Cada idioma es un `.zip` aparte, de la sección Traducciones, y dice qué versión de la DLL necesita; podés bajarlos junto con la DLL e instalar todo de una vez."
     ],
     "en": [
       "It adds a seventh option to the game's language menu for the translation you pick. The six original languages and your commentary stay as they were, and it touches neither the registry nor `pes6.exe`.",
-      "This is the DLL (`translations.dll`): you install it once. Each language is a separate download, from the Translations section, and says which version of the DLL it needs."
+      "This is the DLL (`translations.dll`): you install it only once. Each language is a separate `.zip`, from the Translations section, and says which version of the DLL it needs; you can download them together with the DLL and install everything at once."
     ]
   },
   "licenses": [
@@ -36,14 +36,14 @@
   ],
   "install": {
     "es": [
-      "Descargá el `.zip`.",
-      "Abrí `hdtext.exe`, tocá Translations: Install… y elegí el `.zip`. Instala `translations.dll` y la suma en `kload.cfg`, después de HD Text.",
-      "Desde ahí `hdtext.exe` tiene la pestaña Traducciones, con Install from file… para instalar cada idioma."
+      "Descargá el `.zip` de la DLL y los de los idiomas que quieras, sin descomprimirlos.",
+      "Abrí `hdtext.exe`. Si es la primera vez, tocá Translations: Install...; si ya ves la pestaña Translations, entrá ahí y tocá Install from file.... En los dos casos elegí todos los `.zip` juntos: instala primero `translations.dll` (y la suma en `kload.cfg`, después de HD Text) y después los idiomas.",
+      "La DLL se instala una sola vez. Para sumar otro idioma más adelante, alcanza con su `.zip`, en la pestaña Translations con Install from file...."
     ],
     "en": [
-      "Download the `.zip`.",
-      "Open `hdtext.exe`, press Translations: Install… and pick the `.zip`. It installs `translations.dll` and adds it to `kload.cfg`, after HD Text.",
-      "From then on `hdtext.exe` has the Translations tab, with Install from file… to install each language."
+      "Download the DLL's `.zip` and those of the languages you want, no need to unzip them.",
+      "Open `hdtext.exe`. If it is the first time, press Translations: Install...; if you already see the Translations tab, go there and press Install from file.... Either way, pick all the `.zip` files together: it installs `translations.dll` first (and adds it to `kload.cfg`, after HD Text) and then the languages.",
+      "The DLL is installed only once. To add another language later, its `.zip` is enough, in the Translations tab with Install from file...."
     ]
   },
   "links": [
