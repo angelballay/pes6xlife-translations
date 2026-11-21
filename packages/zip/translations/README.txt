@@ -6,9 +6,10 @@ seventh option for the language you pick in hdtext.exe. The six original
 languages and your commentary stay as they were; it touches neither the
 registry nor pes6.exe.
 
-It needs PES6 HD Text, and PES6 HD Text 1.0.2 already includes it: you don't
-need to download it. This zip is for installing it by hand or for getting a
-newer version than the one that came with HD Text.
+It needs PES6 HD Text. Every language's zip already includes it: loading a
+language with "Load a language file…" installs it, and hdtext.exe doesn't
+overwrite a newer one and keeps it updated. This zip is for installing it by
+hand or for getting a newer one.
 
 This zip has:
   Kitserver/translations.dll
@@ -28,8 +29,8 @@ Install by hand
 
 Each language
   Load its .zip in hdtext.exe → Languages → Load a language file… (or, by
-  hand, copy its dat folder into your PES 6 folder and press Use in
-  Languages), then choose it on the game's language screen.
+  hand, copy its dat and Kitserver folders into your PES 6 folder and press
+  Use in Languages), then choose it on the game's language screen.
 
 To uninstall: remove its line from kload.cfg. The game starts as before.
 Code: MIT. https://github.com/angelballay/pes6xlife-translations

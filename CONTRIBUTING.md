@@ -17,8 +17,8 @@ leaves it. `tools/pes6tr.py merge` builds it, `tools/pes6tr.py strip` turns it b
 - Python 3.11 or later (only the standard library).
 - PES 6 PC with its original `dat\e_text.afs` (SHA-256 `d90c9d8a6712a5227b901bcf1e622da592539961e78b02222a40922ccf75be7b`).
   The other `X_text.afs` of the same folder (`f`, `g`, `i`, `s`, `p`) are optional: they become the `reference` texts.
-- To test in the game: PES6 HD Text 1.0.2 or later, which already includes the languages add-on (`translations.dll`;
-  see the README).
+- To test in the game: PES6 HD Text 1.0.2 or later and the languages add-on (`translations.dll`, which comes inside
+  every language's `.zip`; see the README).
 
 ## Edit a language and build its `.afs`
 
@@ -95,8 +95,8 @@ El completo lleva textos de Konami, así que se arma en tu máquina con **tu pro
 - Python 3.11 o más nuevo (solo la biblioteca estándar).
 - PES 6 PC con su `dat\e_text.afs` original (SHA-256 `d90c9d8a6712a5227b901bcf1e622da592539961e78b02222a40922ccf75be7b`).
   Los otros `X_text.afs` de la carpeta (`f`, `g`, `i`, `s`, `p`) son opcionales: son los textos de `reference`.
-- Para probar en el juego: PES6 HD Text 1.0.2 o más nueva, que ya trae el complemento de idiomas (`translations.dll`;
-  ver el README).
+- Para probar en el juego: PES6 HD Text 1.0.2 o más nueva y el complemento de idiomas (`translations.dll`, que viene
+  dentro del `.zip` de cada idioma; ver el README).
 
 ### Editar un idioma y armar su `.afs`
 

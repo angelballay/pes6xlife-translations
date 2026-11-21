@@ -70,11 +70,11 @@
   },
   "notes": {
     "es": [
-      "A mano: copiá la carpeta `dat` del `.zip` en la carpeta de tu PES 6 (donde está instalado el juego) y elegí el idioma en `hdtext.exe` → Languages → Use.",
+      "A mano: copiá las carpetas `dat` y `Kitserver` del `.zip` en la carpeta de tu PES 6 (donde está instalado el juego); si `kload.cfg` todavía no carga `translations.dll`, sumá `DLL.<N> = \"kitserver\\translations.dll\"` después de la línea de PES6 HD Text, y elegí el idioma en `hdtext.exe` → Languages → Use.",
       "Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra."
     ],
     "en": [
-      "By hand: copy the `dat` folder of the `.zip` into your PES 6 folder (the one the game is installed to) and pick the language in `hdtext.exe` → Languages → Use.",
+      "By hand: copy the `dat` and `Kitserver` folders of the `.zip` into your PES 6 folder (the one the game is installed to); if `kload.cfg` doesn't load `translations.dll` yet, add `DLL.<N> = \"kitserver\\translations.dll\"` after PES6 HD Text's line, and pick the language in `hdtext.exe` → Languages → Use.",
       "To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it."
     ]
   }
