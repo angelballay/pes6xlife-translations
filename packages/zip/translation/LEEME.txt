@@ -5,10 +5,13 @@ Este zip suma un idioma más al menú de idiomas de PES 6 PC, sin tocar los seis
 originales. Trae:
 
   dat/<código>_text.afs                        los textos del juego en este idioma
-  Kitserver/pes6pkg/installed/translation-<código>.json (+ .minisig)
-                                               lista firmada de los archivos, para hdtext.exe
+  Kitserver/translations.dll                   PES6 Translations, el complemento que
+                                               pone el idioma en el menú del juego
+  Kitserver/pes6pkg/installed/ (+ .minisig)    listas firmadas de los archivos, para hdtext.exe
 
-Necesitás PES 6 PC con Kitserver 6 y PES6 HD Text 1.0.2 o más nueva.
+Necesitás PES 6 PC con Kitserver 6 y PES6 HD Text 1.0.2 o más nueva. El
+complemento viene incluido: hdtext.exe lo instala con el idioma (y no pisa uno
+más nuevo).
 
 Instalar con hdtext.exe (recomendado)
   1. Descargá el .zip del idioma (no hace falta descomprimirlo).
@@ -16,16 +19,17 @@ Instalar con hdtext.exe (recomendado)
      (o soltalo sobre la ventana).
   3. Abrí PES6 y elegí el idioma en la pantalla de idiomas.
 
-  La primera vez, hdtext.exe también baja solo un complemento chico (hace falta
-  internet). Para cambiar de idioma: en Languages, elegí otro y tocá Use. None
-  lo apaga y Remove lo borra.
+  Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y
+  Remove lo borra.
 
-Sin internet, o a mano
-  Mirá la página de PES6 Translations en la web. Sin internet, cargá
-  PES6_Translations_DLL_v<versión>.zip en hdtext.exe junto con este zip.
-  A mano, copiá la carpeta dat de este zip (y la carpeta Kitserver de
-  PES6_Translations_DLL_v<versión>.zip) en la carpeta de tu PES 6, donde está
-  instalado el juego, y elegí el idioma en hdtext.exe → Languages → Use.
+Instalar a mano
+  1. Copiá las carpetas dat y Kitserver de este zip en la carpeta de tu PES 6,
+     donde está instalado el juego.
+  2. Si Kitserver\kload.cfg todavía no carga translations.dll, sumala después
+     de la línea de PES6 HD Text, por ejemplo
+       DLL.6 = "kitserver\translations.dll"
+     y subí DLL.num en uno.
+  3. Elegí el idioma en hdtext.exe → Languages → Use.
 
 El .afs se arma sobre el e_text.afs de Konami: sus imágenes y datos originales
 son de Konami. Las traducciones: MIT con atribución
