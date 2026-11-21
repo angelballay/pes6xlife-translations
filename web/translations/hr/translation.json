@@ -29,17 +29,17 @@
   },
   "images": [
     {
-      "file": "ajustes.webp",
-      "alt": {
-        "es": "Ajustes del partido en croata",
-        "en": "Match settings in Croatian"
-      }
-    },
-    {
       "file": "editar.webp",
       "alt": {
         "es": "Menú Editar en croata",
         "en": "Edit menu in Croatian"
+      }
+    },
+    {
+      "file": "jugador.webp",
+      "alt": {
+        "es": "Editar jugador en croata",
+        "en": "Edit player in Croatian"
       }
     }
   ],
