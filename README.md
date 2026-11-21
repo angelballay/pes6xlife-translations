@@ -8,10 +8,10 @@ the game's language menu: the six original languages, your commentary, the regis
 | Русский (Russian) | `ru` | 1.0 | tested in the game |
 | Ελληνικά (Greek) | `el` | 1.0 | tested in the game |
 | Türkçe (Turkish) | `tr` | 1.0 | tested in the game |
-| Srpski (Serbian, Latin script) | `sr` | 1.0 | beta (tested in the lab) |
-| Hrvatski (Croatian) | `hr` | 1.0 | beta (tested in the lab) |
-| Português do Brasil (Brazilian Portuguese) | `pt-br` | 1.0 | beta (tested in the lab) |
-| Bahasa Indonesia (Indonesian) | `id` | 1.0 | beta (tested in the lab) |
+| Srpski (Serbian, Latin script) | `sr` | 1.0 | beta, tested in the game |
+| Hrvatski (Croatian) | `hr` | 1.0 | beta, tested in the game |
+| Português do Brasil (Brazilian Portuguese) | `pt-br` | 1.0 | beta, tested in the game |
+| Bahasa Indonesia (Indonesian) | `id` | 1.0 | beta, tested in the game |
 
 Spanish below / [Castellano más abajo](#castellano).
 
@@ -87,8 +87,8 @@ See [LICENSE](LICENSE).
 Traducciones de **Pro Evolution Soccer 6 (PC)** a idiomas que el juego no trae. Cada una es una séptima opción del
 menú de idiomas: los seis idiomas originales, tu relato, el registro y `pes6.exe` quedan como estaban.
 
-Ruso, griego y turco están probados en el juego. Serbio (latinica), croata, portugués de Brasil e indonesio son
-beta, ya probados en el lab.
+Los siete idiomas están probados en el juego. Serbio (latinica), croata, portugués de Brasil e indonesio siguen en
+beta.
 
 ### Instalar un idioma
 

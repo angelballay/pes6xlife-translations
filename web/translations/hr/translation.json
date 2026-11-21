@@ -18,12 +18,12 @@
   "description": {
     "es": [
       "Los textos de PES 6 traducidos al croata: menús, opciones y mensajes (7958 textos).",
-      "Adaptada de la traducción serbia. Todavía no se probó en el juego.",
+      "Adaptada de la traducción serbia. Probada en el juego.",
       "Es la primera versión: puede haber textos para revisar. Si encontrás uno, avisame."
     ],
     "en": [
       "PES 6's texts translated into Croatian: menus, options and messages (7,958 texts).",
-      "Adapted from the Serbian translation. Not tested in the game yet.",
+      "Adapted from the Serbian translation. Tested in the game.",
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },

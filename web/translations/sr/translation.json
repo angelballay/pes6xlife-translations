@@ -18,12 +18,12 @@
   "description": {
     "es": [
       "Los textos de PES 6 traducidos al serbio: menús, opciones y mensajes (7958 textos).",
-      "En latinica. Todavía no se probó en el juego.",
+      "En latinica. Probada en el juego.",
       "Es la primera versión: puede haber textos para revisar. Si encontrás uno, avisame."
     ],
     "en": [
       "PES 6's texts translated into Serbian: menus, options and messages (7,958 texts).",
-      "In Latin script. Not tested in the game yet.",
+      "In Latin script. Tested in the game.",
       "This is the first version: some texts may need a review. If you find one, let me know."
     ]
   },
