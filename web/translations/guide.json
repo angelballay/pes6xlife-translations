@@ -1,10 +1,10 @@
 {
   "intro": {
     "es": [
-      "Un idioma más en el menú de idiomas de PES 6, sin tocar los seis originales. Necesita PES6 HD Text y PES6 Translations."
+      "Un idioma más en el menú de idiomas de PES 6, sin tocar los seis originales. Se instala desde PES6 HD Text 1.0.2 o más nueva."
     ],
     "en": [
-      "One more language in PES 6's language menu, without touching the six originals. It needs PES6 HD Text and PES6 Translations."
+      "One more language in PES 6's language menu, without touching the six originals. You install it from PES6 HD Text 1.0.2 or later."
     ]
   },
   "groups": [
@@ -50,55 +50,32 @@
         "en": "PES6 HD Text"
       },
       "value": {
-        "es": "1.0.2 o más nueva (la que trae la pestaña Translations)",
-        "en": "1.0.2 or later (the version with the Translations tab)"
+        "es": "1.0.2 o más nueva",
+        "en": "1.0.2 or later"
       },
       "mod": "pes6-hd-text"
-    },
-    {
-      "label": {
-        "es": "PES6 Translations",
-        "en": "PES6 Translations"
-      },
-      "value": {
-        "es": "Se instala una sola vez (`translations.dll`) y se puede bajar junto con los idiomas; cada traducción dice qué versión necesita",
-        "en": "Installed only once (`translations.dll`); you can download it together with the languages. Each translation says which version it needs"
-      },
-      "mod": "pes6-translations"
-    },
-    {
-      "label": {
-        "es": "Idioma base",
-        "en": "Base language"
-      },
-      "value": {
-        "es": "Cualquiera de los seis originales, instalado",
-        "en": "Any of the six original ones, installed"
-      }
     }
   ],
   "steps": {
     "es": [
-      "Descargá los idiomas que quieras y, la primera vez, también PES6 Translations: son varios `.zip`, que no hace falta descomprimir.",
-      "Abrí `hdtext.exe`. Si es la primera vez, tocá Translations: Install...; si ya ves la pestaña Translations, entrá ahí y tocá Install from file.... En los dos casos elegí todos los `.zip` juntos: `hdtext.exe` los comprueba e instala primero PES6 Translations y después los idiomas.",
-      "PES6 Translations se instala una sola vez: para sumar otro idioma más adelante, alcanza con su `.zip`. Si instalaste varios, elegí cuál usar en la pestaña Translations.",
-      "Abrí el juego y elegí el idioma nuevo en la pantalla de idiomas. El juego lo recuerda."
+      "Descargá el `.zip` de {name} (no hace falta descomprimirlo).",
+      "Abrí `hdtext.exe` → Languages → Load a language file… y elegí ese `.zip` (o soltalo sobre la ventana).",
+      "Abrí PES6 y elegí {name} en la pantalla de idiomas."
     ],
     "en": [
-      "Download the languages you want and, the first time, PES6 Translations too: several `.zip` files, no need to unzip them.",
-      "Open `hdtext.exe`. If it is the first time, press Translations: Install...; if you already see the Translations tab, go there and press Install from file.... Either way, pick all the `.zip` files together: `hdtext.exe` checks them and installs PES6 Translations first and then the languages.",
-      "PES6 Translations is installed only once: to add another language later, its `.zip` is enough. If you installed several, pick which one to use in the Translations tab.",
-      "Start the game and pick the new language on the language screen. The game remembers it."
+      "Download the {name} `.zip` (no need to unzip it).",
+      "Open `hdtext.exe` → Languages → Load a language file… and pick that `.zip` (or drop it on the window).",
+      "Start PES6 and choose {name} on the language screen."
     ]
   },
   "notes": {
     "es": [
-      "Para cambiar de idioma, usá las Opciones del juego. Para apagar la traducción, desactivala en la pestaña Translations de `hdtext.exe`.",
-      "A mano: copiá las carpetas `dat` y `Kitserver` de cada `.zip` en la carpeta de tu PES 6, sumá `kitserver\\translations.dll` en `kload.cfg` después de la línea de HD Text y elegí el idioma en la pestaña Translations."
+      "La primera vez, `hdtext.exe` también baja solo un complemento chico (hace falta internet). Sin internet, o para instalar a mano, mirá la página de PES6 Translations, en Mods.",
+      "Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra."
     ],
     "en": [
-      "To change the language, use the game's Options. To turn the translation off, disable it in `hdtext.exe`'s Translations tab.",
-      "By hand: copy the `dat` and `Kitserver` folders of each `.zip` into your PES 6 folder, add `kitserver\\translations.dll` to `kload.cfg` after HD Text's line and pick the language in the Translations tab."
+      "The first time, `hdtext.exe` also gets a small add-on by itself (it needs internet). Without internet, or to install by hand, see the PES6 Translations page, in Mods.",
+      "To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it."
     ]
   }
 }

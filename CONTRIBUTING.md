@@ -17,7 +17,8 @@ leaves it. `tools/pes6tr.py merge` builds it, `tools/pes6tr.py strip` turns it b
 - Python 3.11 or later (only the standard library).
 - PES 6 PC with its original `dat\e_text.afs` (SHA-256 `d90c9d8a6712a5227b901bcf1e622da592539961e78b02222a40922ccf75be7b`).
   The other `X_text.afs` of the same folder (`f`, `g`, `i`, `s`, `p`) are optional: they become the `reference` texts.
-- To test in the game: PES6 HD Text 1.0.2 or later and PES6 Translations (`translations.dll`), see the README.
+- To test in the game: PES6 HD Text 1.0.2 or later with its languages add-on (`translations.dll`, it comes with the
+  first language you install; see the README).
 
 ## Edit a language and build its `.afs`
 
@@ -43,8 +44,9 @@ python tools\pes6tr.py strip work\tr.json -o languages\tr\tr.json
 python tools\check_repo.py
 ```
 
-To try it: copy `work\tr_text.afs` to the `dat\` folder of the game's installation and pick the language in the
-Translations tab of `hdtext.exe` (or set `translation = tr_text.afs` in `hdtext.cfg`).
+To try it: copy `work\tr_text.afs` to the `dat\` folder of the game's installation and pick it in `hdtext.exe` →
+Languages → Use (it shows as changed, because it is not the signed file), or set `translation = tr_text.afs` in
+`hdtext.cfg`.
 
 `merge` stops if your `e_text.afs` is not the original one (another SHA-256) or if an `id` of the translation is not in
 your template. Then export the template again from an original `e_text.afs`.
@@ -93,7 +95,8 @@ El completo lleva textos de Konami, así que se arma en tu máquina con **tu pro
 - Python 3.11 o más nuevo (solo la biblioteca estándar).
 - PES 6 PC con su `dat\e_text.afs` original (SHA-256 `d90c9d8a6712a5227b901bcf1e622da592539961e78b02222a40922ccf75be7b`).
   Los otros `X_text.afs` de la carpeta (`f`, `g`, `i`, `s`, `p`) son opcionales: son los textos de `reference`.
-- Para probar en el juego: PES6 HD Text 1.0.2 o más nueva y PES6 Translations (`translations.dll`), ver el README.
+- Para probar en el juego: PES6 HD Text 1.0.2 o más nueva con su complemento de idiomas (`translations.dll`, viene con
+  el primer idioma que instalás; ver el README).
 
 ### Editar un idioma y armar su `.afs`
 
@@ -119,8 +122,9 @@ python tools\pes6tr.py strip work\tr.json -o languages\tr\tr.json
 python tools\check_repo.py
 ```
 
-Para probarlo: copiá `work\tr_text.afs` a la carpeta `dat\` de la instalación del juego y elegí el idioma en la
-pestaña Traducciones de `hdtext.exe` (o poné `translation = tr_text.afs` en `hdtext.cfg`).
+Para probarlo: copiá `work\tr_text.afs` a la carpeta `dat\` de la instalación del juego y elegilo en `hdtext.exe` →
+Languages → Use (sale como cambiado, porque no es el archivo firmado), o poné `translation = tr_text.afs` en
+`hdtext.cfg`.
 
 `merge` se frena si tu `e_text.afs` no es el original (otro SHA-256) o si un `id` de la traducción no está en tu
 plantilla. En ese caso, volvé a exportar la plantilla de un `e_text.afs` original.
