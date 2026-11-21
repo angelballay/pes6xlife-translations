@@ -11,16 +11,20 @@ touching the six original ones. It has:
 You need:
   - PES 6 PC with Kitserver 6
   - PES6 HD Text 1.0.2 or later
-  - PES6 Translations (translations.dll), downloaded once from its page.
-    This zip does not include it.
+  - PES6 Translations (translations.dll), installed only once. This zip does
+    not include it: download it together with the languages.
 
 Install with hdtext.exe (recommended)
-  1. The first time only: install PES6 Translations with the
-     "Translations: Install..." button of hdtext.exe.
-  2. In hdtext.exe, open the Translations tab, press "Install from file..."
-     and pick this zip (no need to unzip it). hdtext.exe checks the signature
-     and leaves the language chosen.
+  1. Open hdtext.exe. If it is the first time, press "Translations: Install...";
+     if you already see the Translations tab, go there and press
+     "Install from file...".
+  2. Either way, pick this zip together with the others you downloaded
+     (PES6 Translations and other languages), without unzipping them.
+     hdtext.exe checks their signatures and installs PES6 Translations first
+     and then the languages.
   3. Start the game and pick the new language on the language screen.
+     If you installed several languages, pick which one to use in the
+     Translations tab of hdtext.exe.
 
 Install by hand
   Copy the dat and Kitserver folders of this zip into your PES 6 folder (the

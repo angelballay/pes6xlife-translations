@@ -14,10 +14,14 @@ This zip has:
 You need PES 6 PC with Kitserver 6 and PES6 HD Text 1.0.2 or later.
 
 Install with hdtext.exe (recommended)
-  Open hdtext.exe, press "Translations: Install..." and pick this zip (no need
-  to unzip it). It installs translations.dll and adds it to kload.cfg, after
-  HD Text, keeping a copy of the old kload.cfg. From then on hdtext.exe has the
-  Translations tab, where you install each language with "Install from file...".
+  Open hdtext.exe. If it is the first time, press "Translations: Install...";
+  if you already see the Translations tab, go there and press
+  "Install from file...". Either way, pick this zip together with the
+  languages you downloaded, without unzipping them: it installs
+  translations.dll first (and adds it to kload.cfg, after HD Text, keeping a
+  copy of the old kload.cfg) and then the languages.
+  You install the DLL only once: to add another language later, its zip is
+  enough, with "Install from file..." in the Translations tab.
 
 Install by hand
   1. Copy the Kitserver folder of this zip into your PES 6 folder.
