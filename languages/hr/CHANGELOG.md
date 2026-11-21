@@ -10,5 +10,6 @@ First version: 7,958 of the game's 9,093 texts (the other 1,135 are the same in 
 - Checked with `pes6tr.py check`: same control codes, button icons and `%` formats as the original.
 - `letras.py`: every letter is in the PES6 HD Text font.
 - Tested in the lab (2026-11-21).
+- Time of day (match settings) is now «Doba dana»: it said «Vrijeme», the same word as Weather.
 
 Primera versión: 7958 de los 9093 textos del juego (los otros 1135 son iguales en todos los idiomas oficiales: nombres, números, siglas). Borrador de 8 agentes traductores profesionales por tandas, adaptado del serbio, unificado y comprobado con `pes6tr.py check` y `letras.py`. Probado en el lab (2026-11-21).

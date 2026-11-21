@@ -198,3 +198,7 @@ Las 8 tandas tradujeron 7 958 textos con 0 errores. `lotes.py unir` unificó 146
   - sin cirílico ni formas ijekavski;
   - ningún `%s` declinado ni sustantivo declinado detrás de `%d` (lo que marca son verbos: «%d nije», «%d ili»);
   - comillas „…“.
+
+## Corregido después de la prueba (2026-11-21)
+
+- **Time (hora del día, `2:87` y `516:44`; de «Tageszeit») → Doba dana.** Decía «Vreme», igual que Weather (`2:7`, `503:35`), y en los ajustes del partido había dos filas «Vreme». Weather sigue «Vreme».
