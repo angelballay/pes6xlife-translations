@@ -32,8 +32,8 @@ is installed to: the game reads `dat\` from there). If `kload.cfg` doesn't load 
 `hdtext.exe` → Languages → Use.
 
 **PES6 Translations** (`translations.dll`), the add-on that puts the languages in the game's menu, needs PES6 HD Text.
-Every language's `.zip` already includes it: loading a language with Load a language file… installs it, and
-`hdtext.exe` doesn't overwrite a newer one and keeps it updated. It also has its own download
+Every language's `.zip` already includes this add-on: loading a language with Load a language file… installs the
+add-on too, and `hdtext.exe` doesn't overwrite a newer one and keeps it updated. It also has its own download
 (`PES6_Translations_DLL_v<version>.zip`, tag `dll-v<version>`, on its page of the website) to install it by hand or to
 get a newer one: load that `.zip` in `hdtext.exe` → Languages → Load a language file…, or by hand copy its `Kitserver`
 folder and add the `kload.cfg` line above.
@@ -102,8 +102,8 @@ el juego: el juego lee `dat\` de ahí). Si `kload.cfg` todavía no carga `transl
 en `hdtext.exe` → Languages → Use.
 
 **PES6 Translations** (`translations.dll`), el complemento que pone los idiomas en el menú del juego, necesita PES6 HD
-Text. El `.zip` de cada idioma ya lo trae adentro: al cargar un idioma con Load a language file… se instala solo, y
-`hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Tiene también su propia descarga
+Text. El `.zip` de cada idioma ya trae este complemento adentro: al cargar un idioma con Load a language file… el
+complemento se instala solo, y `hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Tiene también su propia descarga
 (`PES6_Translations_DLL_v<versión>.zip`, tag `dll-v<versión>`, en su página de la web) para instalarlo a mano o para
 tener uno más nuevo: cargá ese `.zip` en `hdtext.exe` → Languages → Load a language file…, o a mano copiá su carpeta
 `Kitserver` y sumá la línea de `kload.cfg` de arriba.

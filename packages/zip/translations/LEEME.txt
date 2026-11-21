@@ -5,9 +5,9 @@ El complemento que pone los idiomas en el menú de idiomas de PES 6 PC: una
 séptima opción para el idioma que elijas en hdtext.exe. Los seis idiomas
 originales y tu relato quedan como estaban; no toca el registro ni pes6.exe.
 
-Necesita PES6 HD Text. El zip de cada idioma ya lo trae adentro: al cargar un
-idioma con "Load a language file…" se instala solo, y hdtext.exe no pisa uno
-más nuevo y lo mantiene actualizado. Este zip es para instalarlo a mano o para
+Necesita PES6 HD Text. El zip de cada idioma ya trae este complemento adentro:
+al cargar un idioma con "Load a language file…" el complemento se instala solo,
+y hdtext.exe no pisa uno más nuevo y lo mantiene actualizado. Este zip es para instalarlo a mano o para
 tener uno más nuevo.
 
 Este zip trae:

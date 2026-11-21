@@ -8,6 +8,8 @@ touching the six original ones. It has:
   Kitserver/translations.dll                   PES6 Translations, the add-on that
                                                puts the language in the game's menu
   Kitserver/pes6pkg/installed/ (+ .minisig)    signed lists of the files, for hdtext.exe
+  Docs/                                        the README and LEEME of each package
+                                               (this language and PES6 Translations)
 
 You need PES 6 PC with Kitserver 6 and PES6 HD Text 1.0.2 or later. The
 add-on comes included: hdtext.exe installs it with the language (and doesn't
