@@ -48,5 +48,12 @@
       },
       "name": "Pitycharly"
     }
-  ]
+  ],
+  "release": {
+    "version": "1.0",
+    "date": "2026-11-21",
+    "download": "https://github.com/angelballay/pes6xlife-translations/releases/download/tr-v1.0/PES6_Translation_tr_v1.0.zip",
+    "file": "PES6_Translation_tr_v1.0.zip",
+    "size": "23.2 MB"
+  }
 }

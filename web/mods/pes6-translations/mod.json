@@ -52,5 +52,12 @@
       "url": "/translations/",
       "label": { "es": "Los idiomas para instalar", "en": "The languages to install" }
     }
-  ]
+  ],
+  "release": {
+    "version": "1.0",
+    "date": "2026-11-21",
+    "download": "https://github.com/angelballay/pes6xlife-translations/releases/download/dll-v1.0/PES6_Translations_DLL_v1.0.zip",
+    "file": "PES6_Translations_DLL_v1.0.zip",
+    "size": "92 KB"
+  }
 }
