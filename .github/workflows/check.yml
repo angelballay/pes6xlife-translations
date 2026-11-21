@@ -1,0 +1,22 @@
+# Lo que se puede comprobar sin el juego: forma de los JSON de cada idioma (sin textos de Konami),
+# datos de la web con las reglas de la web, recetas y que no haya binarios.
+# pes6tr.py check necesita la plantilla de tu propio juego: se corre en local (CONTRIBUTING.md).
+name: check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Comprobar el repo
+        run: python -I tools/check_repo.py

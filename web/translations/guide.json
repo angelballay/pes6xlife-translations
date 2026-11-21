@@ -1,0 +1,104 @@
+{
+  "intro": {
+    "es": [
+      "Un idioma más en el menú de idiomas de PES 6, sin tocar los seis originales. Necesita PES6 HD Text y PES6 Translations."
+    ],
+    "en": [
+      "One more language in PES 6's language menu, without touching the six originals. It needs PES6 HD Text and PES6 Translations."
+    ]
+  },
+  "groups": [
+    {
+      "id": "cyrillic",
+      "name": {
+        "es": "Cirílico",
+        "en": "Cyrillic"
+      },
+      "color": "red"
+    },
+    {
+      "id": "greek",
+      "name": {
+        "es": "Griego",
+        "en": "Greek"
+      },
+      "color": "teal"
+    },
+    {
+      "id": "latin",
+      "name": {
+        "es": "Latino",
+        "en": "Latin"
+      },
+      "color": "green"
+    }
+  ],
+  "requirements": [
+    {
+      "label": {
+        "es": "Juego",
+        "en": "Game"
+      },
+      "value": {
+        "es": "PES 6 PC con Kitserver 6",
+        "en": "PES 6 PC with Kitserver 6"
+      }
+    },
+    {
+      "label": {
+        "es": "PES6 HD Text",
+        "en": "PES6 HD Text"
+      },
+      "value": {
+        "es": "1.0.2 o más nueva (la que trae la pestaña Traducciones)",
+        "en": "1.0.2 or later (the version with the Translations tab)"
+      },
+      "mod": "pes6-hd-text"
+    },
+    {
+      "label": {
+        "es": "PES6 Translations",
+        "en": "PES6 Translations"
+      },
+      "value": {
+        "es": "Se baja una vez desde su página (`translations.dll`); cada traducción dice qué versión necesita",
+        "en": "Download it once from its page (`translations.dll`); each translation says which version it needs"
+      },
+      "mod": "pes6-translations"
+    },
+    {
+      "label": {
+        "es": "Idioma base",
+        "en": "Base language"
+      },
+      "value": {
+        "es": "Cualquiera de los seis originales, instalado",
+        "en": "Any of the six original ones, installed"
+      }
+    }
+  ],
+  "steps": {
+    "es": [
+      "Solo la primera vez: descargá PES6 Translations desde su página, abrí `hdtext.exe`, tocá Translations: Install… y elegí ese `.zip`. Instala `translations.dll` y la suma en `kload.cfg`, después de HD Text.",
+      "Descargá la traducción: el `.zip`, sin descomprimirlo.",
+      "En `hdtext.exe`, entrá a la pestaña Traducciones, tocá Install from file… y elegí el `.zip` de la traducción. `hdtext.exe` lo comprueba y deja el idioma elegido.",
+      "Abrí el juego y elegí el idioma nuevo en la pantalla de idiomas. El juego lo recuerda."
+    ],
+    "en": [
+      "The first time only: download PES6 Translations from its page, open `hdtext.exe`, press Translations: Install… and pick that `.zip`. It installs `translations.dll` and adds it to `kload.cfg`, after HD Text.",
+      "Download the translation: the `.zip`, no need to unzip it.",
+      "In `hdtext.exe`, go to the Translations tab, press Install from file… and pick the translation's `.zip`. `hdtext.exe` checks it and leaves the language chosen.",
+      "Start the game and pick the new language on the language screen. The game remembers it."
+    ]
+  },
+  "notes": {
+    "es": [
+      "Para cambiar de idioma, usá las Opciones del juego. Para apagar la traducción, desactivala en la pestaña Traducciones de `hdtext.exe`.",
+      "A mano: copiá las carpetas `dat` y `Kitserver` de cada `.zip` en la carpeta de tu PES 6, sumá `kitserver\\translations.dll` en `kload.cfg` después de la línea de HD Text y elegí el idioma en la pestaña Traducciones."
+    ],
+    "en": [
+      "To change the language, use the game's Options. To turn the translation off, disable it in `hdtext.exe`'s Translations tab.",
+      "By hand: copy the `dat` and `Kitserver` folders of each `.zip` into your PES 6 folder, add `kitserver\\translations.dll` to `kload.cfg` after HD Text's line and pick the language in the Translations tab."
+    ]
+  }
+}

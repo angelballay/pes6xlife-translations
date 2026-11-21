@@ -1,0 +1,50 @@
+{
+  "id": "pt-br",
+  "group": "latin",
+  "order": 4,
+  "name": "Português (Brasil)",
+  "language": {
+    "es": "Portugués de Brasil",
+    "en": "Brazilian Portuguese"
+  },
+  "badge": "PT-BR",
+  "badgeColor": "green",
+  "author": "Pitycharly",
+  "beta": true,
+  "summary": {
+    "es": "Los menús y los textos del juego, en portugués de Brasil.",
+    "en": "The game's menus and texts, in Brazilian Portuguese."
+  },
+  "description": {
+    "es": [
+      "Los textos de PES 6 traducidos al portugués de Brasil: menús, opciones y mensajes (7958 textos).",
+      "Es la primera versión: puede haber textos para revisar. Si encontrás uno, avisame."
+    ],
+    "en": [
+      "PES 6's texts translated into Brazilian Portuguese: menus, options and messages (7,958 texts).",
+      "This is the first version: some texts may need a review. If you find one, let me know."
+    ]
+  },
+  "requirements": [
+    {
+      "label": {
+        "es": "PES6 Translations",
+        "en": "PES6 Translations"
+      },
+      "value": {
+        "es": "1.0 o más nueva",
+        "en": "1.0 or later"
+      },
+      "mod": "pes6-translations"
+    }
+  ],
+  "credits": [
+    {
+      "role": {
+        "es": "Traducción",
+        "en": "Translation"
+      },
+      "name": "Pitycharly"
+    }
+  ]
+}

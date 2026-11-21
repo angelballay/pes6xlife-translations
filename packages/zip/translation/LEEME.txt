@@ -1,0 +1,36 @@
+Traducción de PES6 (un idioma)
+==============================
+
+Este zip suma un idioma más al menú de idiomas de PES 6 PC, sin tocar los seis
+originales. Trae:
+
+  dat/<código>_text.afs                        los textos del juego en este idioma
+  Kitserver/pes6pkg/installed/translation-<código>.json (+ .minisig)
+                                               lista firmada de los archivos, para hdtext.exe
+
+Necesitás:
+  - PES 6 PC con Kitserver 6
+  - PES6 HD Text 1.0.2 o más nueva
+  - PES6 Translations (translations.dll), que se baja una vez desde su página.
+    Este zip no la trae.
+
+Instalar con hdtext.exe (recomendado)
+  1. Solo la primera vez: instalá PES6 Translations con el botón
+     "Translations: Install..." de hdtext.exe.
+  2. En hdtext.exe, abrí la pestaña Traducciones, tocá "Install from file..." y
+     elegí este zip (no hace falta descomprimirlo). hdtext.exe comprueba la
+     firma y deja el idioma elegido.
+  3. Abrí el juego y elegí el idioma nuevo en la pantalla de idiomas.
+
+Instalar a mano
+  Copiá las carpetas dat y Kitserver de este zip en la carpeta de tu PES 6 (la
+  carpeta donde está instalado el juego). Después elegí el idioma en la pestaña
+  Traducciones de hdtext.exe.
+
+Para cambiar de idioma, usá las Opciones del juego. Para apagar la traducción,
+desactivala en la pestaña Traducciones de hdtext.exe.
+
+El .afs se arma sobre el e_text.afs de Konami: sus imágenes y datos originales
+son de Konami. Las traducciones: MIT con atribución
+("Mod PES6 Translations Original creado por PityCharly.").
+Fuente, glosario y cambios: https://github.com/angelballay/pes6xlife-translations

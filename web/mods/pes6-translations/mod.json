@@ -1,0 +1,56 @@
+{
+  "id": "pes6-translations",
+  "kind": "mod",
+  "category": "mods",
+  "order": 3,
+  "name": "PES6 Translations",
+  "author": "Pitycharly",
+  "badge": { "es": "IDIOMA", "en": "LANG" },
+  "badgeColor": "red",
+  "summary": {
+    "es": "Un idioma más en PES 6 (ruso, griego, turco…), sin tocar los seis originales.",
+    "en": "One more language in PES 6 (Russian, Greek, Turkish…), without touching the six originals."
+  },
+  "description": {
+    "es": [
+      "Suma una séptima opción al menú de idiomas del juego para la traducción que elijas. Los seis idiomas originales y tu relato quedan como estaban, y no toca el registro ni `pes6.exe`.",
+      "Es la DLL (`translations.dll`): se instala una vez. Cada idioma se baja aparte, desde la sección Traducciones, y dice qué versión de la DLL necesita."
+    ],
+    "en": [
+      "It adds a seventh option to the game's language menu for the translation you pick. The six original languages and your commentary stay as they were, and it touches neither the registry nor `pes6.exe`.",
+      "This is the DLL (`translations.dll`): you install it once. Each language is a separate download, from the Translations section, and says which version of the DLL it needs."
+    ]
+  },
+  "licenses": [
+    { "scope": { "es": "Código", "en": "Code" }, "name": "MIT" }
+  ],
+  "github": { "repo": "angelballay/pes6xlife-translations" },
+  "requirements": [
+    { "label": { "es": "Juego", "en": "Game" }, "value": "PES 6 PC" },
+    { "label": { "es": "Necesita", "en": "Needs" }, "value": "Kitserver 6" },
+    {
+      "label": { "es": "PES6 HD Text", "en": "PES6 HD Text" },
+      "value": { "es": "1.0.2 o más nueva", "en": "1.0.2 or later" },
+      "mod": "pes6-hd-text"
+    }
+  ],
+  "install": {
+    "es": [
+      "Descargá el `.zip`.",
+      "Abrí `hdtext.exe`, tocá Translations: Install… y elegí el `.zip`. Instala `translations.dll` y la suma en `kload.cfg`, después de HD Text.",
+      "Desde ahí `hdtext.exe` tiene la pestaña Traducciones, con Install from file… para instalar cada idioma."
+    ],
+    "en": [
+      "Download the `.zip`.",
+      "Open `hdtext.exe`, press Translations: Install… and pick the `.zip`. It installs `translations.dll` and adds it to `kload.cfg`, after HD Text.",
+      "From then on `hdtext.exe` has the Translations tab, with Install from file… to install each language."
+    ]
+  },
+  "links": [
+    {
+      "kind": "other",
+      "url": "/translations/",
+      "label": { "es": "Los idiomas para instalar", "en": "The languages to install" }
+    }
+  ]
+}

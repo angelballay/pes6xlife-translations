@@ -1,0 +1,37 @@
+{
+  "recipe": "pes6pkg-recipe/1",
+  "package": "translation-id",
+  "name": "Bahasa Indonesia",
+  "release": {
+    "repo": "angelballay/pes6xlife-translations",
+    "tag": "id-v{version}",
+    "archive": "PES6_Translation_id_v{version}.zip"
+  },
+  "requires": [
+    {
+      "package": "hdtext",
+      "min": "1.0.2"
+    },
+    {
+      "package": "translations",
+      "min": "1.0"
+    }
+  ],
+  "files": [
+    {
+      "path": "dat/id_text.afs",
+      "install": true,
+      "from": "tools/pes6tr.py build (merge de languages/id/id.json con la plantilla de e_text.afs; --source <dat>/e_text.afs --install afs)"
+    },
+    {
+      "path": "README.txt",
+      "install": false,
+      "from": "packages/zip/translation/README.txt"
+    },
+    {
+      "path": "LEEME.txt",
+      "install": false,
+      "from": "packages/zip/translation/LEEME.txt"
+    }
+  ]
+}

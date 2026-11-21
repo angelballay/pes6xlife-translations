@@ -1,0 +1,49 @@
+{
+  "id": "tr",
+  "group": "latin",
+  "order": 1,
+  "name": "Türkçe",
+  "language": {
+    "es": "Turco",
+    "en": "Turkish"
+  },
+  "badge": "TR",
+  "badgeColor": "green",
+  "author": "Pitycharly",
+  "summary": {
+    "es": "Los menús y los textos del juego, en turco.",
+    "en": "The game's menus and texts, in Turkish."
+  },
+  "description": {
+    "es": [
+      "Los textos de PES 6 traducidos al turco: menús, opciones y mensajes (7958 textos).",
+      "Es la primera versión: puede haber textos para revisar. Si encontrás uno, avisame."
+    ],
+    "en": [
+      "PES 6's texts translated into Turkish: menus, options and messages (7,958 texts).",
+      "This is the first version: some texts may need a review. If you find one, let me know."
+    ]
+  },
+  "requirements": [
+    {
+      "label": {
+        "es": "PES6 Translations",
+        "en": "PES6 Translations"
+      },
+      "value": {
+        "es": "1.0 o más nueva",
+        "en": "1.0 or later"
+      },
+      "mod": "pes6-translations"
+    }
+  ],
+  "credits": [
+    {
+      "role": {
+        "es": "Traducción",
+        "en": "Translation"
+      },
+      "name": "Pitycharly"
+    }
+  ]
+}
