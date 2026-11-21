@@ -14,11 +14,11 @@
   "description": {
     "es": [
       "Suma una séptima opción al menú de idiomas del juego para el idioma que elijas en `hdtext.exe`. Los seis idiomas originales y tu relato quedan como estaban, y no toca el registro ni `pes6.exe`.",
-      "Necesita PES6 HD Text. Cada idioma ya la trae adentro: al cargar un idioma con Load a language file… se instala sola, y `hdtext.exe` no pisa una más nueva y la mantiene actualizada. Esta descarga aparte es para instalarla a mano o para tener una más nueva. Los idiomas están en la sección Traducciones."
+      "Necesita PES6 HD Text. Cada idioma ya trae este complemento adentro: al cargar un idioma con Load a language file… el complemento se instala solo, y `hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Esta descarga aparte es para instalarlo a mano o para tener uno más nuevo. Los idiomas están en la sección Traducciones."
     ],
     "en": [
       "It adds a seventh option to the game's language menu for the language you pick in `hdtext.exe`. The six original languages and your commentary stay as they were, and it touches neither the registry nor `pes6.exe`.",
-      "It needs PES6 HD Text. Every language already includes it: loading a language with Load a language file… installs it, and `hdtext.exe` doesn't overwrite a newer one and keeps it updated. This separate download is for installing it by hand or for getting a newer one. The languages are in the Translations section."
+      "It needs PES6 HD Text. Every language's zip already includes this add-on: loading a language with Load a language file… installs the add-on too, and `hdtext.exe` doesn't overwrite a newer one and keeps it updated. This separate download is for installing it by hand or for getting a newer one. The languages are in the Translations section."
     ]
   },
   "licenses": [

@@ -6,9 +6,9 @@ seventh option for the language you pick in hdtext.exe. The six original
 languages and your commentary stay as they were; it touches neither the
 registry nor pes6.exe.
 
-It needs PES6 HD Text. Every language's zip already includes it: loading a
-language with "Load a language file…" installs it, and hdtext.exe doesn't
-overwrite a newer one and keeps it updated. This zip is for installing it by
+It needs PES6 HD Text. Every language's zip already includes this add-on:
+loading a language with "Load a language file…" installs the add-on too, and
+hdtext.exe doesn't overwrite a newer one and keeps it updated. This zip is for installing it by
 hand or for getting a newer one.
 
 This zip has:

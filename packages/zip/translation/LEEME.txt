@@ -8,6 +8,8 @@ originales. Trae:
   Kitserver/translations.dll                   PES6 Translations, el complemento que
                                                pone el idioma en el menú del juego
   Kitserver/pes6pkg/installed/ (+ .minisig)    listas firmadas de los archivos, para hdtext.exe
+  Docs/                                        el README y el LEEME de cada paquete
+                                               (este idioma y PES6 Translations)
 
 Necesitás PES 6 PC con Kitserver 6 y PES6 HD Text 1.0.2 o más nueva. El
 complemento viene incluido: hdtext.exe lo instala con el idioma (y no pisa uno
