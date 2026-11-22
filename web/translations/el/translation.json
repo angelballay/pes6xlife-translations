@@ -43,12 +43,12 @@
   "requirements": [
     {
       "label": {
-        "es": "Tu fuente",
-        "en": "Your font"
+        "es": "Otra fuente",
+        "en": "Another font"
       },
       "value": {
-        "es": "Pes6FontCreator, si le faltan letras: en Idiomas marcá Griego",
-        "en": "Pes6FontCreator, if it lacks letters: in Languages tick Greek"
+        "es": "Completala con Pes6FontCreator: en Idiomas marcá Griego",
+        "en": "Complete it with Pes6FontCreator: in Languages tick Greek"
       },
       "mod": "pes6-font-creator"
     }

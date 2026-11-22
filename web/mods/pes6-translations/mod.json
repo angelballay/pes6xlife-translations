@@ -14,13 +14,11 @@
   "description": {
     "es": [
       "Suma una séptima opción al menú de idiomas del juego para el idioma que elijas en `hdtext.exe`. Los seis idiomas originales y tu relato quedan como estaban, y no toca el registro ni `pes6.exe`.",
-      "Necesita PES6 HD Text. Cada idioma ya trae este complemento adentro: al cargar un idioma con Load a language file… el complemento se instala solo, y `hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Esta descarga aparte es para instalarlo a mano o para tener uno más nuevo. Los idiomas están en la sección Traducciones.",
-      "¿Tu fuente no trae las letras de un idioma? Completala con Pes6FontCreator (en Requisitos). La página de cada idioma dice qué marcar en Idiomas y cómo seguir."
+      "Necesita PES6 HD Text. Cada idioma ya trae este complemento adentro: al cargar un idioma con Load a language file… el complemento se instala solo, y `hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Esta descarga aparte es para instalarlo a mano o para tener uno más nuevo. Los idiomas están en la sección Traducciones."
     ],
     "en": [
       "It adds a seventh option to the game's language menu for the language you pick in `hdtext.exe`. The six original languages and your commentary stay as they were, and it touches neither the registry nor `pes6.exe`.",
-      "It needs PES6 HD Text. Every language's zip already includes this add-on: loading a language with Load a language file… installs the add-on too, and `hdtext.exe` doesn't overwrite a newer one and keeps it updated. This separate download is for installing it by hand or for getting a newer one. The languages are in the Translations section.",
-      "Your font lacks a language's letters? Complete it with Pes6FontCreator (in Requirements). Each language's page says what to tick in Languages and how to go on."
+      "It needs PES6 HD Text. Every language's zip already includes this add-on: loading a language with Load a language file… installs the add-on too, and `hdtext.exe` doesn't overwrite a newer one and keeps it updated. This separate download is for installing it by hand or for getting a newer one. The languages are in the Translations section."
     ]
   },
   "licenses": [
@@ -36,8 +34,8 @@
       "mod": "pes6-hd-text"
     },
     {
-      "label": { "es": "Tu fuente", "en": "Your font" },
-      "value": { "es": "Pes6FontCreator, si le faltan letras (opcional)", "en": "Pes6FontCreator, if it lacks letters (optional)" },
+      "label": { "es": "Otra fuente", "en": "Another font" },
+      "value": { "es": "Completala con Pes6FontCreator: cada idioma dice qué alfabeto marcar", "en": "Complete it with Pes6FontCreator: each language says which alphabet to tick" },
       "mod": "pes6-font-creator"
     }
   ],

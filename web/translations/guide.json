@@ -57,12 +57,12 @@
     },
     {
       "label": {
-        "es": "Tu fuente",
-        "en": "Your font"
+        "es": "Otra fuente",
+        "en": "Another font"
       },
       "value": {
-        "es": "Pes6FontCreator, si le faltan letras (opcional)",
-        "en": "Pes6FontCreator, if it lacks letters (optional)"
+        "es": "Completala con Pes6FontCreator",
+        "en": "Complete it with Pes6FontCreator"
       },
       "mod": "pes6-font-creator"
     }
@@ -83,14 +83,12 @@
     "es": [
       "A mano: copiá las carpetas `dat` y `Kitserver` del `.zip` en la carpeta de tu PES 6 (donde está instalado el juego); si `kload.cfg` todavía no carga `translations.dll`, sumá `DLL.<N> = \"kitserver\\translations.dll\"` después de la línea de PES6 HD Text, y elegí el idioma en `hdtext.exe` → Languages → Use.",
       "Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra.",
-      "Si `hdtext.exe` avisa que a tu fuente le faltan letras del idioma, elegí Use Original style, o completá tu fuente con Pes6FontCreator (abajo).",
-      "Tu fuente con {name}: abrí Pes6FontCreator (en Requisitos), cargá tu `.ttf` u `.otf`, marcá en Idiomas lo que dice Requisitos y tocá CREAR FUENTE HD. Las letras que tu fuente no trae, la herramienta las arma: confirmá las que tengan `!`. Después agregá tu `HD_<nombre>.bin` en `hdtext.exe` → Add font… → Apply."
+      "Si `hdtext.exe` avisa que a tu fuente le faltan letras del idioma, elegí Use Original style."
     ],
     "en": [
       "By hand: copy the `dat` and `Kitserver` folders of the `.zip` into your PES 6 folder (the one the game is installed to); if `kload.cfg` doesn't load `translations.dll` yet, add `DLL.<N> = \"kitserver\\translations.dll\"` after PES6 HD Text's line, and pick the language in `hdtext.exe` → Languages → Use.",
       "To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it.",
-      "If `hdtext.exe` says your font is missing letters of the language, choose Use Original style, or complete your font with Pes6FontCreator (below).",
-      "Your font for {name}: open Pes6FontCreator (in Requirements), load your `.ttf` or `.otf`, tick in Languages what Requirements says and press CREATE HD FONT. The tool builds the letters your font lacks: confirm the ones marked `!`. Then add your `HD_<name>.bin` in `hdtext.exe` → Add font… → Apply."
+      "If `hdtext.exe` says your font is missing letters of the language, choose Use Original style."
     ]
   }
 }
