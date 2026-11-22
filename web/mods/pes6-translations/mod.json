@@ -14,11 +14,13 @@
   "description": {
     "es": [
       "Suma una séptima opción al menú de idiomas del juego para el idioma que elijas en `hdtext.exe`. Los seis idiomas originales y tu relato quedan como estaban, y no toca el registro ni `pes6.exe`.",
-      "Necesita PES6 HD Text. Cada idioma ya trae este complemento adentro: al cargar un idioma con Load a language file… el complemento se instala solo, y `hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Esta descarga aparte es para instalarlo a mano o para tener uno más nuevo. Los idiomas están en la sección Traducciones."
+      "Necesita PES6 HD Text. Cada idioma ya trae este complemento adentro: al cargar un idioma con Load a language file… el complemento se instala solo, y `hdtext.exe` no pisa uno más nuevo y lo mantiene actualizado. Esta descarga aparte es para instalarlo a mano o para tener uno más nuevo. Los idiomas están en la sección Traducciones.",
+      "¿Tu fuente no trae las letras de un idioma? Completala con Pes6FontCreator (está en Requisitos): cargá tu `.ttf` u `.otf`, en Idiomas marcá el alfabeto que usa el idioma (Griego, Cirílico o Latín extendido), tocá CREAR FUENTE HD, confirmá las letras con `!` y agregá tu `HD_<nombre>.bin` en `hdtext.exe` → Add font… → Apply. La página de cada idioma lo cuenta paso a paso."
     ],
     "en": [
       "It adds a seventh option to the game's language menu for the language you pick in `hdtext.exe`. The six original languages and your commentary stay as they were, and it touches neither the registry nor `pes6.exe`.",
-      "It needs PES6 HD Text. Every language's zip already includes this add-on: loading a language with Load a language file… installs the add-on too, and `hdtext.exe` doesn't overwrite a newer one and keeps it updated. This separate download is for installing it by hand or for getting a newer one. The languages are in the Translations section."
+      "It needs PES6 HD Text. Every language's zip already includes this add-on: loading a language with Load a language file… installs the add-on too, and `hdtext.exe` doesn't overwrite a newer one and keeps it updated. This separate download is for installing it by hand or for getting a newer one. The languages are in the Translations section.",
+      "Your font lacks a language's letters? Complete it with Pes6FontCreator (it's in Requirements): load your `.ttf` or `.otf`, tick the alphabet the language uses in Languages (Greek, Cyrillic or Extended Latin), press CREATE HD FONT, confirm the letters marked `!` and add your `HD_<name>.bin` in `hdtext.exe` → Add font… → Apply. Each language's page tells it step by step."
     ]
   },
   "licenses": [
@@ -32,6 +34,11 @@
       "label": { "es": "PES6 HD Text", "en": "PES6 HD Text" },
       "value": { "es": "1.0.2 o más nueva", "en": "1.0.2 or later" },
       "mod": "pes6-hd-text"
+    },
+    {
+      "label": { "es": "Tu fuente", "en": "Your font" },
+      "value": { "es": "Pes6FontCreator, si le faltan letras (opcional)", "en": "Pes6FontCreator, if it lacks letters (optional)" },
+      "mod": "pes6-font-creator"
     }
   ],
   "install": {
