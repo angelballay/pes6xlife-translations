@@ -84,15 +84,13 @@
       "A mano: copiá las carpetas `dat` y `Kitserver` del `.zip` en la carpeta de tu PES 6 (donde está instalado el juego); si `kload.cfg` todavía no carga `translations.dll`, sumá `DLL.<N> = \"kitserver\\translations.dll\"` después de la línea de PES6 HD Text, y elegí el idioma en `hdtext.exe` → Languages → Use.",
       "Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra.",
       "Si `hdtext.exe` avisa que a tu fuente le faltan letras del idioma, elegí Use Original style, o completá tu fuente con Pes6FontCreator (abajo).",
-      "Para usar tu fuente con {name}: abrí Pes6FontCreator (está en Requisitos) y cargá tu `.ttf` u `.otf`. En Idiomas marcá el alfabeto que usa {name}: Griego, Cirílico o Latín extendido (el de letras como č, ş o ğ); si solo usa letras como ã o ç, no hace falta. Tocá CREAR FUENTE HD, confirmá las letras con `!`, descargá tu `HD_<nombre>.bin` y agregalo en `hdtext.exe` → Add font… → Apply.",
-      "Si tu fuente no trae ese alfabeto, la herramienta arma cada letra que falta con una parecida de tu fuente o la toma de una fuente libre, ajustada a la tuya (AUTOMÁTICA). Si alguna no te convence, usá la DEL MOD o pedile el dibujo a una IA (TU SVG). Para aceptarlas como quedaron: CONFIRMAR LAS AUTOMÁTICAS."
+      "Tu fuente con {name}: abrí Pes6FontCreator (en Requisitos), cargá tu `.ttf` u `.otf`, marcá en Idiomas lo que dice Requisitos y tocá CREAR FUENTE HD. Las letras que tu fuente no trae, la herramienta las arma: confirmá las que tengan `!`. Después agregá tu `HD_<nombre>.bin` en `hdtext.exe` → Add font… → Apply."
     ],
     "en": [
       "By hand: copy the `dat` and `Kitserver` folders of the `.zip` into your PES 6 folder (the one the game is installed to); if `kload.cfg` doesn't load `translations.dll` yet, add `DLL.<N> = \"kitserver\\translations.dll\"` after PES6 HD Text's line, and pick the language in `hdtext.exe` → Languages → Use.",
       "To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it.",
       "If `hdtext.exe` says your font is missing letters of the language, choose Use Original style, or complete your font with Pes6FontCreator (below).",
-      "To use your font with {name}: open Pes6FontCreator (it's in Requirements) and load your `.ttf` or `.otf`. In Languages, tick the alphabet {name} uses: Greek, Cyrillic or Extended Latin (the one with letters like č, ş or ğ); if it only uses letters like ã or ç, you don't need one. Press CREATE HD FONT, confirm the letters marked `!`, download your `HD_<name>.bin` and add it in `hdtext.exe` → Add font… → Apply.",
-      "If your font lacks that alphabet, the tool builds each missing letter from a similar one of your font or takes it from a free font, fitted to yours (AUTOMATIC). If one doesn't convince you, use FROM THE MOD or have an AI draw it (YOUR SVG). To accept them as they are: CONFIRM THE AUTOMATIC ONES."
+      "Your font for {name}: open Pes6FontCreator (in Requirements), load your `.ttf` or `.otf`, tick in Languages what Requirements says and press CREATE HD FONT. The tool builds the letters your font lacks: confirm the ones marked `!`. Then add your `HD_<name>.bin` in `hdtext.exe` → Add font… → Apply."
     ]
   }
 }

@@ -41,6 +41,19 @@
       }
     }
   ],
+  "requirements": [
+    {
+      "label": {
+        "es": "Tu fuente",
+        "en": "Your font"
+      },
+      "value": {
+        "es": "Pes6FontCreator, si le faltan letras: en Idiomas no hace falta marcar un alfabeto",
+        "en": "Pes6FontCreator, if it lacks letters: no alphabet to tick in Languages"
+      },
+      "mod": "pes6-font-creator"
+    }
+  ],
   "credits": [
     {
       "role": {

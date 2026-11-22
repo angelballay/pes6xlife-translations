@@ -43,6 +43,19 @@
       }
     }
   ],
+  "requirements": [
+    {
+      "label": {
+        "es": "Tu fuente",
+        "en": "Your font"
+      },
+      "value": {
+        "es": "Pes6FontCreator, si le faltan letras: en Idiomas marcá Latín extendido",
+        "en": "Pes6FontCreator, if it lacks letters: in Languages tick Extended Latin"
+      },
+      "mod": "pes6-font-creator"
+    }
+  ],
   "credits": [
     {
       "role": {
