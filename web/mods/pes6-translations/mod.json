@@ -32,6 +32,11 @@
       "label": { "es": "PES6 HD Text", "en": "PES6 HD Text" },
       "value": { "es": "1.0.2 o más nueva", "en": "1.0.2 or later" },
       "mod": "pes6-hd-text"
+    },
+    {
+      "label": { "es": "Otra fuente", "en": "Another font" },
+      "value": { "es": "Completala con Pes6FontCreator: cada idioma dice qué alfabeto marcar", "en": "Complete it with Pes6FontCreator: each language says which alphabet to tick" },
+      "mod": "pes6-font-creator"
     }
   ],
   "install": {
