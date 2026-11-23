@@ -69,26 +69,26 @@
   ],
   "steps": {
     "es": [
-      "Descargá el `.zip` de {name} (no hace falta descomprimirlo).",
-      "Abrí `hdtext.exe` → Languages → Load a language file… y elegí ese `.zip` (o soltalo sobre la ventana).",
+      "Descargá el `.zip` de {name}. No lo descomprimas: HD Text lo necesita entero.",
+      "Abrí `hdtext.exe` → Languages → Load a language file (.zip)… y elegí ese `.zip`. No hay que instalar nada más: el zip ya trae todo.",
       "Abrí PES6 y elegí {name} en la pantalla de idiomas."
     ],
     "en": [
-      "Download the {name} `.zip` (no need to unzip it).",
-      "Open `hdtext.exe` → Languages → Load a language file… and pick that `.zip` (or drop it on the window).",
+      "Download the {name} `.zip`. Don't unzip it: HD Text needs it whole.",
+      "Open `hdtext.exe` → Languages → Load a language file (.zip)… and pick that `.zip`. Nothing else to install: the zip has everything.",
       "Start PES6 and choose {name} on the language screen."
     ]
   },
   "notes": {
     "es": [
-      "A mano: copiá las carpetas `dat` y `Kitserver` del `.zip` en la carpeta de tu PES 6 (donde está instalado el juego); si `kload.cfg` todavía no carga `translations.dll`, sumá `DLL.<N> = \"kitserver\\translations.dll\"` después de la línea de PES6 HD Text, y elegí el idioma en `hdtext.exe` → Languages → Use.",
       "Para cambiar de idioma: en Languages, elegí otro y tocá Use. None lo apaga y Remove lo borra.",
-      "Si `hdtext.exe` avisa que a tu fuente le faltan letras del idioma, elegí Use Original style."
+      "Si `hdtext.exe` avisa que a tu fuente le faltan letras del idioma, elegí Use Original style.",
+      "Solo si no cargás el `.zip` con `hdtext.exe`, a mano: copiá las carpetas `dat` y `Kitserver` del `.zip` en la carpeta de tu PES 6 (donde está instalado el juego); si `kload.cfg` todavía no carga `translations.dll`, sumá `DLL.<N> = \"kitserver\\translations.dll\"` después de la línea de PES6 HD Text, y elegí el idioma en `hdtext.exe` → Languages → Use."
     ],
     "en": [
-      "By hand: copy the `dat` and `Kitserver` folders of the `.zip` into your PES 6 folder (the one the game is installed to); if `kload.cfg` doesn't load `translations.dll` yet, add `DLL.<N> = \"kitserver\\translations.dll\"` after PES6 HD Text's line, and pick the language in `hdtext.exe` → Languages → Use.",
       "To change the language: in Languages, pick another one and press Use. None turns it off and Remove deletes it.",
-      "If `hdtext.exe` says your font is missing letters of the language, choose Use Original style."
+      "If `hdtext.exe` says your font is missing letters of the language, choose Use Original style.",
+      "Only if you don't load the `.zip` with `hdtext.exe`, by hand: copy the `dat` and `Kitserver` folders of the `.zip` into your PES 6 folder (the one the game is installed to); if `kload.cfg` doesn't load `translations.dll` yet, add `DLL.<N> = \"kitserver\\translations.dll\"` after PES6 HD Text's line, and pick the language in `hdtext.exe` → Languages → Use."
     ]
   }
 }
