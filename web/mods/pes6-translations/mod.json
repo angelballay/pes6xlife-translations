@@ -22,7 +22,7 @@
     ]
   },
   "licenses": [
-    { "scope": { "es": "Código", "en": "Code" }, "name": "MIT" }
+    { "scope": { "es": "Traducciones y herramientas", "en": "Translations and tools" }, "name": "MIT" }
   ],
   "github": { "repo": "angelballay/pes6xlife-translations" },
   "requirements": [
