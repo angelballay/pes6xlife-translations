@@ -41,6 +41,19 @@
       }
     }
   ],
+  "requirements": [
+    {
+      "label": {
+        "es": "Otra fuente",
+        "en": "Another font"
+      },
+      "value": {
+        "es": "Completala con Pes6FontCreator",
+        "en": "Complete it with Pes6FontCreator"
+      },
+      "mod": "pes6-font-creator"
+    }
+  ],
   "credits": [
     {
       "role": {
